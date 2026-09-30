@@ -1,6 +1,6 @@
 # 🌦️ Weather Batch ETL Pipeline
 
-![CI](https://github.com/<your-username>/weather-etl-pipeline/actions/workflows/ci.yml/badge.svg)
+![CI](https://github.com/AYMANETBAIK98/WEATHER-PIPELINE/actions/workflows/ci.yml/badge.svg)
 ![Python](https://img.shields.io/badge/python-3.11-blue)
 ![Airflow](https://img.shields.io/badge/Airflow-3.1-017CEE)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-16-336791)
@@ -68,7 +68,7 @@ flowchart LR
 ## Project structure
 
 ```
-weather-etl-pipeline/
+WEATHER-PIPELINE/
 ├── dags/weather_etl_dag.py      # Airflow DAG (TaskFlow API)
 ├── etl/
 │   ├── config.py                # cities, API + DB settings
@@ -90,8 +90,8 @@ weather-etl-pipeline/
 **Requirements:** Docker Desktop.
 
 ```bash
-git clone https://github.com/<your-username>/weather-etl-pipeline.git
-cd weather-etl-pipeline
+git clone https://github.com/AYMANETBAIK98/WEATHER-PIPELINE.git
+cd WEATHER-PIPELINE
 docker compose up -d --build        # or: make up
 ```
 
