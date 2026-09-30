@@ -12,6 +12,9 @@ A production-style **daily batch pipeline** that pulls hourly weather data for 8
 with a dimensional model, and **blocks bad data** with automated quality checks.
 Orchestrated by **Apache Airflow 3**, fully containerised with **Docker**, tested in **CI**.
 
+![Airflow DAG run - all tasks successful](docs/airflow_dag_run.png)
+*A real run in Airflow 3: all 4 tasks succeeded in about 7 seconds.*
+
 ---
 
 ## Architecture
